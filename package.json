@@ -23,9 +23,11 @@
     "gatsby-source-filesystem": "^3.7.1",
     "gatsby-transformer-sharp": "^3.7.1",
     "react": "^17.0.1",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-simple-image-slider": "^2.1.0"
+    "react-simple-image-slider": "^2.1.0",
+    "react-slick": "^0.28.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",

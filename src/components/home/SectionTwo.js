@@ -1,10 +1,13 @@
 import React from "react";
-import SimpleImageSlider from "react-simple-image-slider";
+import { StaticImage } from "gatsby-plugin-image";
+import Carousel from "react-bootstrap/Carousel";
+// import SimpleImageSlider from "react-simple-image-slider";
 const images = [
 	{ url: "https://source.unsplash.com/random" },
 	{ url: "https://source.unsplash.com/random" },
 	{ url: "https://source.unsplash.com/random" },
 ];
+
 const SectionTwo = () => {
 	return (
 		<section className="w-10/12 mx-auto my-12">
@@ -26,14 +29,29 @@ const SectionTwo = () => {
 			</div>
 			<div className="grid  lg:grid-cols-[2fr,1fr,1fr] grid-rows-[480px] gap-5">
 				<div className="w-full h-full">
-					{" "}
-					<SimpleImageSlider
-						showBullets={false}
-						showNavs={true}
-						width={800}
-						height={504}
-						images={images}
-					/>
+					<Carousel className="w-full h-full">
+						<Carousel.Item interval={1500} className="w-full h-full">
+							<img
+								className="w-full h-full"
+								src="https://source.unsplash.com/random"
+								alt="First slide"
+							/>
+						</Carousel.Item>
+						<Carousel.Item interval={1500} className="w-full h-full">
+							<img
+								className="w-full h-full"
+								src="https://source.unsplash.com/random"
+								alt="Second slide"
+							/>
+						</Carousel.Item>
+						<Carousel.Item interval={1500} className="w-full h-full">
+							<img
+								className="w-full h-full"
+								src="https://source.unsplash.com/random"
+								alt="Third slide"
+							/>
+						</Carousel.Item>
+					</Carousel>
 				</div>
 
 				<p className=" text-[22px] text-[#949494]  font-Freight font-light ">

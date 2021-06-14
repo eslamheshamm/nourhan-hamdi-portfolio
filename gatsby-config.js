@@ -3,12 +3,13 @@ module.exports = {
 		title: "nourhan-hamdi-portfolio",
 	},
 	plugins: [
-		"gatsby-plugin-postcss",
 		"gatsby-plugin-gatsby-cloud",
 		"gatsby-plugin-image",
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
+		"gatsby-plugin-postcss",
+
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
