@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "Guyot";
+	font-style: normal;
+	font-weight: normal;
+	src: url("./fonts/GuyotHeadline-Regular.woff");
+}
+
+@font-face {
+	font-family: "Neue";
+	font-style: normal;
+	font-weight: normal;
+	src: url("./fonts/NeueHaasDisplayLight.woff");
+}
+@font-face {
+	font-family: "Freight";
+	font-style: normal;
+	font-weight: normal;
+	src: url("./fonts/FreightTextBook.woff");
+}
