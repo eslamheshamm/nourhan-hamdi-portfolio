@@ -1,12 +1,12 @@
 import React from "react";
 const SectionThree = () => {
 	return (
-		<section className="min-h-screen bg-[#f3f1ed] py-24 pb-32">
-			<h3 className="text-[#FF1D00] uppercase  font-bold text-center tracking-wider mb-10">
+		<section className="min-h-screen  bg-[#f3f1ed] py-24 pb-32">
+			<h3 className="text-[#FF1D00] w-11/12 mx-auto uppercase  font-bold text-center tracking-wider mb-10">
 				About me
 			</h3>
-			<article className="grid grid-cols-2 gap-6 my-4">
-				<h2 className=" font-Guyot text-5xl italic text-center">
+			<article className="grid md:grid-cols-2 gap-6 my-4 w-11/12 mx-auto">
+				<h2 className=" font-Guyot text-3xl md:text-5xl italic text-center">
 					Hi my Name Is Nourhan Hamdii, <br /> Photography is my hobby.
 				</h2>
 				<ul className="list-decimal  text-[22px] text-[#949494]  font-Freight px-8 ">
@@ -42,7 +42,7 @@ const SectionThree = () => {
 					<li>Anyone who gives more than he has is a thief.</li>
 					<li>Your mind doesn’t tell you the truth.</li>
 				</ul>
-				<ul className="flex justify-center col-start-1 col-end-3">
+				<ul className="flex justify-center md:col-start-1 md:col-end-3">
 					<li className="uppercase mr-8 text-[#949494] font-Neue">
 						<a
 							href="https://instagram.com"
